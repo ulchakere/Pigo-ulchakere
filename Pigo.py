@@ -6,9 +6,12 @@ __author__ = 'ericulchaker'
 
 class Pigo:
 
-    isMoving = False
-    servoPos = 90
+    ######
+    ###### BASIC STATUS AND METHODS
+    ######
 
+    status = {'ismoving' : = False, 'servo' : 90, 'leftspeed' : 175}
+    {'rightspeed' : 175}
 
     def __init__(self):
         print "I am very tired today."
@@ -24,6 +27,14 @@ class Pigo:
         while fwd() != 1:
             time.sleep(.1)
             Print "This is not possible."
+
+    ######
+    ###### COMPLEX METHODS
+    ######
+
+    ######
+    ###### MAIN APP STARTS HERE
+    ######
 
 
 tina = Pigo()
